@@ -1,0 +1,13 @@
+from django.db import models
+
+
+class BlogPost(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField()
+    submitted_at = models.DateTimeField(auto_now=True)
+
+
+class Comment(models.Model):
+    post = models.ForeignKey(BlogPost, on_delete=models.CASCADE, related_name='comments')
+    content = models.TextField()
+    submitted_at = models.DateTimeField(auto_now=True)
