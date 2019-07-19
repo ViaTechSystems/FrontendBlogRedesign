@@ -50,5 +50,5 @@ https://django-crispy-forms.readthedocs.io/en/latest/index.html
 
 https://github.com/jazzband/django-widget-tweaks
 
-Any custom JQuery or JQuery Packages or CSS framework you want to accomplish the task at hand. JQuery is already loaded in the base.html template
+Use any custom JQuery or CSS, or JQuery Packages/CSS frameworks you want to accomplish the task at hand. JQuery is already loaded in the base.html template
 
