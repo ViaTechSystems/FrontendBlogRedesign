@@ -32,12 +32,22 @@ Now to run the server enter this command, then go to 127.0.0.1:8000 in your brow
 
 You will be working with Django here so we can see if you are able to understand the framework we are using in our company at a base level. Although not required as we have set the entire project up for you, you may want to go over some starters in the documentation before you begin to familarize yourself with what we are doing. There is also a link to the standard "Polls" App Django uses to teach beginners the ropes.
 
-Django Docs: https://docs.djangoproject.com/en/2.2/
-Polls App (Starter Django App): https://docs.djangoproject.com/en/2.2/intro/tutorial01/
+Django Docs: 
+
+https://docs.djangoproject.com/en/2.2/
+
+Polls App (Starter Django App): 
+
+https://docs.djangoproject.com/en/2.2/intro/tutorial01/
 
 You can use Django apps like cripsy forms or widget tweaks, we are good with anything else you was
-Crsipy-Forms: https://django-crispy-forms.readthedocs.io/en/latest/index.html
-Widget-Tweaks: https://github.com/jazzband/django-widget-tweaks
+Crsipy-Forms: 
+
+https://django-crispy-forms.readthedocs.io/en/latest/index.html
+
+Widget-Tweaks: 
+
+https://github.com/jazzband/django-widget-tweaks
 
 Any custom JQuery or JQuery Packages or CSS framework you want to accomplish the task at hand. JQuery is already loaded in the base.html template
 
