@@ -16,7 +16,7 @@ We need you to style it to look like a commercial, production application.
 
 ## Django Information:
 
-You need to install the requirement.txt file like so from the directory with the file:
+You need to install the requirements like so with the terminal from the directory with requirement.txt file in it:
 
 ```pip3 install -r requirements.txt```
 
@@ -24,9 +24,11 @@ Now run migrations:
 
 ```python manage.py migrate```
 
-To get this to run you need to know 1 command that you will run from yuor terminal in the directory with manage.py:
+Now to run the server enter this command, then go to 127.0.0.1:8000 in your browser:
 
 ```python manage.py runserver 127.0.0.1:8000```
+
+
 
 You will be working with Django here so we can see if you are able to understand the framework we are using in our company at a base level. Although not required as we have set the entire project up for you, you may want to go over some starters in the documentation before you begin to familarize yourself with what we are doing. There is also a link to the standard "Polls" App Django uses to teach beginners the ropes.
 
