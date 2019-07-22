@@ -1,12 +1,12 @@
 # Blog Redesign
-You have a very simple Blog Application written in Django. PyCharm was the IDE used but you can use whatever IDE you want.
+You have a very simple Blog Application written in Django. PyCharm was the IDE used but you can use whatever editor you want.
 
-This is a functioning system with 4 templates you will restyle (view.html, create.html, create_comment.html, and edit.html)
+This is a functioning blog system with 4 templates you will restyle (view.html, create.html, create_comment.html, and edit.html)
 
-We need you to style it to look like a commercial, production application.
+Interface and Forms should be styled to look like a production application, we need a designer for this position.
 
 ## Specific Features:
-- Interface and Forms need to be restyled to look like a production application. Choose a nice design for the interface and implement it, styling is important here.
+- Choose a nice design for the interface and implement it, styling is important here.
 - JavaScript Pagination of Blog Posts
 - Truncation of Comments so they don't overtake the screen (allow comments to be made visible again as well, think of a blog, you can view all comments but they don't take up the whole page)
 - Forms need JavaScript Form Validation for empty fields, and legnth of content input less than 5 characters
@@ -15,14 +15,14 @@ We need you to style it to look like a commercial, production application.
 - JavaScript image slider on the "View Posts" page with overlaying text stating the current time with counting seconds, and the total number of posts submitted
 
 ## Django Information:
+  ### If setting up for the first time:
+  Install the requirements like so with the terminal from the directory with requirements.txt file in it:
 
-You need to install the requirements like so with the terminal from the directory with requirement.txt file in it:
+  ```pip3 install -r requirements.txt```
 
-```pip3 install -r requirements.txt```
+  Now run migrations to update the database:
 
-Now run migrations:
-
-```python manage.py migrate```
+  ```python manage.py migrate```
 
 Now to run the server enter this command, then go to 127.0.0.1:8000 in your browser:
 
