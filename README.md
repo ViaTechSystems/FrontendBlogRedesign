@@ -15,7 +15,7 @@ Interface and Forms should be styled to look like a production application, we n
 - JavaScript image slider on the "View Posts" page with overlaying text stating the current time with counting seconds, and the total number of posts submitted
 
 ## Django Information:
-### If setting up for the first time:
+#### If setting up for the first time:
 Install the requirements like so with the terminal from the directory with requirements.txt file in it:
 
 ```pip3 install -r requirements.txt```
@@ -24,6 +24,7 @@ Now run migrations to update the database:
 
 ```python manage.py migrate```
 
+#### Run the server to view the site:
 Now to run the server enter this command, then go to 127.0.0.1:8000 in your browser:
 
 ```python manage.py runserver 127.0.0.1:8000```
