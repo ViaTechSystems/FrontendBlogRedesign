@@ -1,5 +1,5 @@
 # Blog Redesign
-You have a very simple Blog Application written in Django. PyCharm was the IDE used but you can use whatever editor you want.
+You have a very simple Blog Application written in Django. PyCharm was the IDE used but you can use whatever editor you want, you are using JavaScript, .
 
 This is a functioning blog system with 4 templates you will restyle (view.html, create.html, create_comment.html, and edit.html)
 
@@ -15,22 +15,36 @@ Interface and Forms should be styled to look like a production application, we n
 - JavaScript image slider on the "View Posts" page with overlaying text stating the current time with counting seconds, and the total number of posts submitted
 
 ## Django Information:
-  ### If setting up for the first time:
-  Install the requirements like so with the terminal from the directory with requirements.txt file in it:
+### If setting up for the first time:
+Install the requirements like so with the terminal from the directory with requirements.txt file in it:
 
-  ```pip3 install -r requirements.txt```
+```pip3 install -r requirements.txt```
 
-  Now run migrations to update the database:
+Now run migrations to update the database:
 
-  ```python manage.py migrate```
+```python manage.py migrate```
 
 Now to run the server enter this command, then go to 127.0.0.1:8000 in your browser:
 
 ```python manage.py runserver 127.0.0.1:8000```
 
 
+You will be working with Django here but **you do not have to mess with the base framework, we want styling of pages and forms, along with standard JavaScript features**. You will have to use `crispy-forms` or `widget-tweaks` in Django's template tags to style the forms, but how to do that is shown below:
 
-You will be working with Django here so we can see if you are able to understand the framework we are using in our company at a base level. Although not required as we have set the entire project up for you, you may want to go over some starters in the documentation before you begin to familarize yourself with what we are doing. There is also a link to the standard "Polls" App Django uses to teach beginners the ropes.
+```
+{% for field in form %}
+      <div class="form-group">
+        <label>{{ field.label }}</label>
+         # here, this is where you add classes to fields
+        {{ field|add_class:'form-control' }} # like: |add_class:'[your_class_name]'
+        {% for error in field.errors %}
+          <span class="help-block">{{ error }}</span>
+        {% endfor %}
+      </div>
+    {% endfor %}
+```
+
+If you want to go over some starters in the documentation as you being looking at the files, they are listed below, but remember we only need you to design the way this looks and implement the features listed above, do not waste time looking at the framework, (unless you want to).
 
 **Django Docs:** 
 
@@ -40,7 +54,7 @@ https://docs.djangoproject.com/en/2.2/
 
 https://docs.djangoproject.com/en/2.2/intro/tutorial01/
 
-We have already added `crispy-forms` and `django-widget-tweaks` to the project and they are loaded to each page so simply look up the documentation and implement them if you wish. Alternatively it is fine to implement a different pakckage if you feel the need, we want a nice design here.
+We have already added `crispy-forms` and `django-widget-tweaks` to the project and they are loaded to each page so simply look up the documentation and implement them if you wish. Alternatively it is fine to implement a different pakckage if you feel the need or want to experiment, but a nice design is what is wanted. Here is the documentation for both packages:
 
 **Crsipy-Forms:** 
 
