@@ -1,15 +1,13 @@
 # Blog Redesign
-You have a very simple Blog Application written in Django. PyCharm was the IDE used but you can use whatever editor you want, you are using JavaScript, .
-
-This is a functioning blog system with 4 templates you will restyle (view.html, create.html, create_comment.html, and edit.html)
+You have a very simple Blog Application written in Django. It has 4 templates you will restyle (view.html, create.html, create_comment.html, and edit.html)
 
 Interface and Forms should be styled to look like a production application, we need a designer for this position.
 
 ## Specific Features:
 - Choose a nice design for the interface and implement it, styling is important here.
 - JavaScript Pagination of Blog Posts
-- Truncation of Comments so they don't overtake the screen (allow comments to be made visible again as well, think of a blog, you can view all comments but they don't take up the whole page)
-- Forms need JavaScript Form Validation for empty fields, and legnth of content input less than 5 characters
+- Truncation of Comments so they don't overtake the screen (allow comments to be made visible again as well, think of a blog, you can view all comments if you want but they don't take up the whole page initially)
+- Forms need JavaScript Validation for empty fields, and legnth of content input less than 5 characters
 - Alter the navigation to work however you need
 - JavaScript Modals for successful submission of posts, comments, and deletions
 - JavaScript image slider on the "View Posts" page with overlaying text stating the current time with counting seconds, and the total number of posts submitted
