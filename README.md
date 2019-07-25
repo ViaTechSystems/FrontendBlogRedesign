@@ -25,7 +25,7 @@ Now run migrations to update the database:
 #### Run the server to view the site:
 Now to run the server enter this command, then go to 127.0.0.1:8000 in your browser:
 
-```python manage.py runserver 127.0.0.1:8000```
+```python manage.py runserver 127.0.0.1:8000``` -In PyCharm it is just the green triangle button.
 
 
 You will be working with Django here but **you do not have to mess with the base framework, we want styling of pages and forms, along with standard JavaScript features**. You will have to use `crispy-forms` or `widget-tweaks` in Django's template tags to style the forms, but how to do that is shown below:
